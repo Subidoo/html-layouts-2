@@ -8,7 +8,8 @@ html, body {
 .containerOne {
 	display: flex;
 	width:100%;
-	justify-content: space-around;	
+	justify-content: space-around;
+	margin-top: 50px;
 }
 .flexOne {
 	height: 150px;
