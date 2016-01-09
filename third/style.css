@@ -4,25 +4,37 @@ html, body {
 	padding: 0;
 	margin: 0;
 }
-header {
+.topContainer {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
 	width: 100%;
-	height: 100px;
-	background-color: black;
+	height: 5%;
 }
-footer {
-	width: 900px;
-	height:	50px;
-	background-color: black;
-	margin: 0 auto;
-	float: bottom;
-}
-body {
-	background-color: gray;
-}
-.whitespace {
-	width:	900px;
-	background-color: white;
-	height: 650px;
-	margin: 0 auto;
+.apple {
 	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.google {
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.wordContainer {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 90%;
+	padding: 30px;
+	margin: 20px;
+}
+.flex1 {
+	margin: 10px;
+}
+.bottomContainer {
+	background-color: black;
+	width: 100%;
+	height: 5%;
 }
