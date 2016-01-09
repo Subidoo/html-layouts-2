@@ -1,0 +1,88 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.containerOne {
+	display: flex;
+	width:100%;
+	justify-content: space-around;	
+}
+.flexOne {
+	height: 150px;
+	width :250px;
+	flex-direction: row;
+	display: inline-block;
+	align-items: center;
+}
+.redBoxTop {
+	background-color: red;
+}
+.blueBoxTop {
+	background-color: blue;
+}
+.grayBoxTop {
+	background-color: gray;
+}
+.whitespace {
+	text-align: justify;
+	margin: 0 auto;
+	width: 85%;
+	padding: 10px;
+}
+.containerTwo {
+	display: flex;
+	width: 100%;
+
+}
+.flexTwo {
+	flex-direction: row;
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.redBoxMid {
+	background-color: red;
+	margin-left: 100px;
+	width: 25%;
+}
+.blueBoxMid {
+	background-color: blue;
+	width:75%;
+	margin-right: 100px;
+}
+.containerThree {
+	display: flex;
+	width: 100%;
+	height: 150px;
+}
+.flexThree {
+	flex-direction: row;
+	display: inline-block;
+	height: 150px;
+	width:100%;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.blueBoxBot {
+	background-color: blue;
+	width: 75%;
+	margin-left: 100px;
+}
+.redBoxBot {
+	background-color: red;
+	width: 5%;
+}
+.grayBoxBot {
+	background-color: gray;
+	width: 15%;
+}
+.redBoxEnd {
+	background-color: red;
+	width: 5%;
+	margin-right: 100px;
+}
